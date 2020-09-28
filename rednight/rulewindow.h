@@ -9,6 +9,7 @@ class rulewindow : public QWidget
 public:
     explicit rulewindow(QWidget *parent = nullptr);
     QLabel * rule =NULL;
+
 signals:
 
 public slots:

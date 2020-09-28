@@ -13,6 +13,8 @@ public:
     void paintEvent(QPaintEvent *);
     rulewindow * ruleScene=NULL;
 signals:
+    //写一个自定义信号，告诉主场景返回
+    void gameBack();
 
 public slots:
 };

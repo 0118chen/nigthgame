@@ -17,7 +17,7 @@ public:
     //重写paintEvent事件画背景图
     void paintEvent(QPaintEvent *);
    gamewindow * gameScene=NULL;
-
+    rulewindow * rulescene=NULL;
 
 private:
     Ui::MainWindow *ui;
