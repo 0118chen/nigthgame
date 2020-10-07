@@ -1,6 +1,7 @@
 #ifndef GAMEWINDOW_H
 #define GAMEWINDOW_H
 #include"rulewindow.h"
+#include"messagewindow.h"
 
 #include <QMainWindow>
 
@@ -12,6 +13,9 @@ public:
     //重写绘图事件
     void paintEvent(QPaintEvent *);
     rulewindow * ruleScene=NULL;
+    messagewindow * messageScene=NULL;
+    messagewindow * nullscene=NULL;
+
 signals:
     //写一个自定义信号，告诉主场景返回
     void gameBack();

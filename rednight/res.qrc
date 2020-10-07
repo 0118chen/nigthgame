@@ -6,7 +6,9 @@
         <file>res/windowicon.jpg</file>
         <file>res/startscense.jpg</file>
         <file>res/starticon.jpg</file>
-        <file>res/back.jpg</file>
         <file>res/mainscense_copy.jpg</file>
+        <file>res/message.jpg</file>
+        <file>res/tim.jpg</file>
+        <file>res/back.jpg</file>
     </qresource>
 </RCC>

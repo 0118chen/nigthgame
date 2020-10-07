@@ -36,6 +36,7 @@
      <string>信息</string>
     </property>
     <addaction name="actionxxsadsadada"/>
+    <addaction name="actionkk"/>
    </widget>
    <addaction name="menu"/>
    <addaction name="menuxin"/>
@@ -60,6 +61,11 @@
   <action name="actionxxsadsadada">
    <property name="text">
     <string>规则</string>
+   </property>
+  </action>
+  <action name="actionkk">
+   <property name="text">
+    <string>信息</string>
    </property>
   </action>
  </widget>

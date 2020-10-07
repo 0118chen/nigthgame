@@ -2,7 +2,7 @@
 #define MAINWINDOW_H
 #include"gamewindow.h"
 #include <QMainWindow>
-
+extern int num;
 namespace Ui {
 class MainWindow;
 }
@@ -18,6 +18,7 @@ public:
     void paintEvent(QPaintEvent *);
    gamewindow * gameScene=NULL;
     rulewindow * rulescene=NULL;
+    messagewindow * messagescene= NULL;
 
 private:
     Ui::MainWindow *ui;

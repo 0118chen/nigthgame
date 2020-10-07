@@ -28,13 +28,17 @@ SOURCES += \
     mypushbutton.cpp \
     startwindow.cpp \
     gamewindow.cpp \
-    rulewindow.cpp
+    rulewindow.cpp \
+    person.cpp \
+    messagewindow.cpp
 
 HEADERS += \
     mypushbutton.h \
     startwindow.h \
     gamewindow.h \
-    rulewindow.h
+    rulewindow.h \
+    person.h \
+    messagewindow.h
 
 FORMS += \
         mainwindow.ui

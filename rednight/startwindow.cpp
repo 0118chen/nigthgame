@@ -3,6 +3,10 @@
 #include<QPainter>
 #include"mypushbutton.h"
 #include<QTimer>
+#include<QInputDialog>
+#include<QDebug>
+#include<QTableWidget>
+#include"messagewindow.h"
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
@@ -19,6 +23,10 @@ MainWindow::MainWindow(QWidget *parent) :
     //实例化游戏页面
     gameScene = new gamewindow;//实例化游戏场景
     rulescene = new rulewindow;//实例化规则场景
+    messagescene = new messagewindow;
+    connect(ui->actionkk,&QAction::triggered,[=](){
+        messagescene->show();
+    });
     connect(ui->actionxxsadsadada,&QAction::triggered,[=](){
         rulescene->show();
     });
@@ -36,8 +44,8 @@ MainWindow::MainWindow(QWidget *parent) :
         QTimer::singleShot(350,this,[=](){
             this->hide();//自身隐藏
 
-            gameScene->show();//显示游戏页面
 
+            gameScene->show();//显示游戏页面  
 
             });
 
@@ -60,6 +68,7 @@ void MainWindow::paintEvent(QPaintEvent *)
     painter.drawPixmap(0,27,pix);
 
 }
+
 MainWindow::~MainWindow()
 {
     delete ui;
