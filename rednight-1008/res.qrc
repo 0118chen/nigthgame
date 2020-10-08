@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/death.jpg</file>
+        <file>res/mainscense.jpg</file>
+        <file>res/startbutton.jpg</file>
+        <file>res/windowicon.jpg</file>
+        <file>res/startscense.jpg</file>
+        <file>res/starticon.jpg</file>
+        <file>res/mainscense_copy.jpg</file>
+        <file>res/message.jpg</file>
+        <file>res/tim.jpg</file>
+        <file>res/back.jpg</file>
+        <file>res/go.jpg</file>
+    </qresource>
+</RCC>

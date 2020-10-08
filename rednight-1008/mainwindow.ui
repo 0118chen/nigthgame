@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>400</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>开始</string>
+    </property>
+    <addaction name="actionstop"/>
+    <addaction name="separator"/>
+    <addaction name="actionss_2"/>
+   </widget>
+   <widget class="QMenu" name="menuxin">
+    <property name="title">
+     <string>信息</string>
+    </property>
+    <addaction name="actionxxsadsadada"/>
+    <addaction name="actionkk"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menuxin"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionstop">
+   <property name="text">
+    <string>暂停</string>
+   </property>
+   <property name="iconText">
+    <string>暂停</string>
+   </property>
+  </action>
+  <action name="actionss_2">
+   <property name="text">
+    <string>退出</string>
+   </property>
+   <property name="iconText">
+    <string>退出</string>
+   </property>
+  </action>
+  <action name="actionxxsadsadada">
+   <property name="text">
+    <string>规则</string>
+   </property>
+  </action>
+  <action name="actionkk">
+   <property name="text">
+    <string>信息</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
